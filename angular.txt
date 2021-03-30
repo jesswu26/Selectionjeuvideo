@@ -1,0 +1,25 @@
+
+home
+	home.components
+
+option-list
+
+
+game-random
+
+game-form
+
+
+game-librabry
+
+game-list
+
+console-list
+
+game
+
+video-games
+
+menu
+
+navbar

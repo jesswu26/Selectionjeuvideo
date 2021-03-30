@@ -1,0 +1,32 @@
+<h1>Jeu proposé</h1>
+
+<h2>{{game.title}}</h2>
+
+<img src='{{game.gameBox}}'>
+
+<h3>{{game.price}}€</h3>
+
+    <h2>Caractéristiques</h2>
+    {{game.description}}
+
+    <h2>Plateforme</h2>
+    {{game.platform}}    
+
+    <h2>Disponibilité</h2>
+    {{game.available}}    
+    
+
+    <button (click)="validatePreferences()">Oui je le veux !</button>
+    
+    <button routerLink="/menu">Non j'en veux un autre</button>
+
+
+    <!-- <form method="GET" action="https://www.nintendo.fr/Jeux/Nintendo-Switch/Mario-Kart-8-Deluxe-1173281.html">
+
+        <input type="submit" class="mon-bouton-oui" value="Oui je le veux !">
+    </form>
+    <form action="../www/preferences.html">
+        <button type="submit" class="mon-bouton-non">J'en veux un autre</button>
+    </form>
+<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+<router-outlet></router-outlet> -->
